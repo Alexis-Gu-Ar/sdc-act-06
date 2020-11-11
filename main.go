@@ -31,7 +31,7 @@ func (self *Proceso) start() {
 		if self.logEnabled {
 			fmt.Printf("id %d: %d\n", self.id, self.i)
 		}
-		time.Sleep(time.Second)
+		time.Sleep(time.Millisecond * 500)
 	}
 }
 
